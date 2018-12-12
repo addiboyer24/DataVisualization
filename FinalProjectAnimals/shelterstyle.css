@@ -1,0 +1,77 @@
+a{
+    font-size:20px;
+    font-family:Courier New;
+}
+a:hover{
+    font-size:22px;
+}
+h1{
+    font-family:Courier New;
+    font-size: 30px; 
+}
+h2{
+    font-family:Times New Roman;
+    font-size:22px;
+}
+
+.intake, .outcome{
+    font-family:Times New Roman;
+    font-size:17px;
+    fill:black;
+    r:1%;
+    opacity:1;
+}
+circle.intake{
+    opacity:1;
+}
+.intake{
+    fill:black;
+    text-decoration:none;
+    font-size:24px;
+    font-family:Times New Roman;
+}
+
+.bars{
+    fill:black;
+    font-size:20px;
+    font-family:Times New Roman, Courier New;
+    font-style:bold;
+}
+.labels{
+    font-family:Times New Roman;
+    font-size:20px;
+    stroke:black;
+    
+}
+.intake:hover{
+    r:1.25%;
+  
+    
+}
+circle#Normal{
+    fill:lightgreen;
+}
+circle#Injured{
+    fill:red;
+}
+circle#Aged{
+    fill:gray;
+}
+circle#Sick{
+    fill:blue;
+}
+circle#Other{
+    fill:black;
+}
+circle#Feral{
+    fill:pink;
+}
+circle#Pregnant{
+    fill:brown;
+}
+circle#Nursing{
+    fill:yellow;
+}
+#axis{
+    font-size:22px;
+}
